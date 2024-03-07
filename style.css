@@ -115,9 +115,43 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    margin-bottom: 100px;
   }
 
     .deck .card {
       text-align: center;
       width: 200px;
+    }
+
+.section-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #e5e7eb;
+}
+
+  .section-three .quote {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 10px;
+  }
+
+    .quote .main-text {
+      color: #1f2937;
+      font-size: 36px;
+      font-style: italic;
+      font-weight: 300;
+      text-align: left;
+      width: 800px;
+    }
+
+    .quote .secondary-text {
+      color: #1f2937;
+      font-size: 24px;
+      font-weight: bold;
+      align-self: flex-end;
     }
