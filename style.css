@@ -34,6 +34,7 @@ button {
 .section-one {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     align-items: center;
     background-color: #1f2937;
   }
@@ -88,3 +89,35 @@ button {
     width: 450px;
     margin-bottom: 12px;
   }
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+  .section-two .main-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 40px;
+  }
+
+  .section-two .secondary-text {
+    color: #1f2937;
+    font-size: 18px;
+    margin-top: 4px;
+  }
+
+  .section-two .deck {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+    .deck .card {
+      text-align: center;
+      width: 200px;
+    }
